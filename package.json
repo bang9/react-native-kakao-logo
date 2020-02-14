@@ -1,6 +1,6 @@
 {
   "name": "react-native-kakao-logo",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "(not official) kakao svg-logo for react-native",
   "main": "src/index.js",
   "types": "src/index.d.ts",
