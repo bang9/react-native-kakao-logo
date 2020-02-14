@@ -13,7 +13,7 @@ install `react-native-svg`
 
 ### Preview
 
-![login_screen](screenshots/login.jpeg)
+<img alt="preview" src="screenshots/login.jpeg" width="400" height="auto" />
 
 ### Example code and screenshot
 
@@ -84,7 +84,7 @@ const styles = StyleSheet.create({
 
 export default App;
 ```
-![example_screen](screenshots/example.png)
+<img alt="example" src="screenshots/example.png" width="400" height="auto" />
 
 ### Props
 
