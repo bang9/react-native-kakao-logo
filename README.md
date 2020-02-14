@@ -20,7 +20,7 @@ install `react-native-svg`
 ```jsx
 import KakaoLogo from "react-native-kakao-logo";
 
-<KakaoIcon size={30} style={{ width: 30 }} />;
+<KakaoLogo size={30} style={{ width: 30 }} />;
 ```
 
 ### Props
