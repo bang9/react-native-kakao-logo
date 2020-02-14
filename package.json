@@ -1,0 +1,37 @@
+{
+  "name": "react-native-kakao-logo",
+  "version": "1.0.0",
+  "description": "(not official) kakao svg-logo for react-native",
+  "main": "src/index.js",
+  "types": "src/index.d.ts",
+  "repository": "https://github.com/bang9/react-native-kakao-logo",
+  "author": "bang9dev <gusrn1423@naver.com>",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "build": "tsc",
+    "deploy": "tsc && yarn fix && npm publish",
+    "fix": "prettier --write \"**/*.{ts,tsx,js}\""
+  },
+  "devDependencies": {
+    "@types/react": "^16.9.19",
+    "@types/react-native": "^0.61.14",
+    "prettier": "^1.19.1",
+    "react-native-svg": "^11.0.1",
+    "typescript": "^3.7.5"
+  },
+  "peerDependencies": {
+    "react": "*",
+    "react-native": "*",
+    "react-native-svg": "*"
+  },
+  "keywords": [
+    "react",
+    "react-native",
+    "kakao-svg",
+    "kakao-svg-logo",
+    "kakao",
+    "kakao-logins",
+    "kakao-logo"
+  ]
+}
