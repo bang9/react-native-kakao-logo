@@ -8,7 +8,7 @@ interface IProps extends ViewProps {
     style?: StyleProp<ViewStyle>;
 }
 
-const KakaoIcon: React.FC<IProps> = ({ size, color, style }) => {
+const KakaoLogo: React.FC<IProps> = ({ size, color, style }) => {
     return (
         <View style={style}>
             <Svg height={size ?? 25} width={size ?? 25} viewBox={"0 0 50 50"}>
@@ -23,4 +23,4 @@ const KakaoIcon: React.FC<IProps> = ({ size, color, style }) => {
     );
 };
 
-export default React.memo(KakaoIcon);
+export default React.memo(KakaoLogo);
